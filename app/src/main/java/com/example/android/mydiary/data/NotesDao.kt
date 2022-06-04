@@ -1,8 +1,8 @@
-package com.example.android.mydiary
+package com.example.android.mydiary.data
 
-import android.provider.ContactsContract
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import com.example.android.mydiary.Notes
 
 @Dao
 interface NotesDao {

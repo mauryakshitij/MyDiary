@@ -1,9 +1,10 @@
-package com.example.android.mydiary
+package com.example.android.mydiary.data
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
+import com.example.android.mydiary.Notes
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

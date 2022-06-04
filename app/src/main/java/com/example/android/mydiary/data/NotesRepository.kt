@@ -1,6 +1,7 @@
-package com.example.android.mydiary
+package com.example.android.mydiary.data
 
 import androidx.lifecycle.LiveData
+import com.example.android.mydiary.Notes
 
 class NotesRepository(private val notesDao: NotesDao){
     val allNotes: LiveData<List<Notes>> = notesDao.getAllNotes()

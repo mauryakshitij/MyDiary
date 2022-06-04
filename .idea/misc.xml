@@ -6,7 +6,10 @@
         <entry key="..\:/Coding/android dev/MyDiary/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.178" />
         <entry key="..\:/Coding/android dev/MyDiary/app/src/main/res/drawable/ic_launcher_background.xml" value="0.178" />
         <entry key="..\:/Coding/android dev/MyDiary/app/src/main/res/drawable/ic_plus.xml" value="0.1525" />
-        <entry key="..\:/Coding/android dev/MyDiary/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Coding/android dev/MyDiary/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Coding/android dev/MyDiary/app/src/main/res/layout/fragment_add__note.xml" value="0.25" />
+        <entry key="..\:/Coding/android dev/MyDiary/app/src/main/res/layout/fragment_new__note.xml" value="0.25" />
+        <entry key="..\:/Coding/android dev/MyDiary/app/src/main/res/layout/fragment_note__list.xml" value="0.2" />
         <entry key="..\:/Coding/android dev/MyDiary/app/src/main/res/layout/notes.xml" value="0.264" />
       </map>
     </option>
