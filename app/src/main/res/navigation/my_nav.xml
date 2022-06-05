@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_note_List_to_add_Note"
             app:destination="@id/add_Note" />
+        <action
+            android:id="@+id/action_note_List_to_note_Update"
+            app:destination="@id/note_Update" />
     </fragment>
     <fragment
         android:id="@+id/add_Note"
@@ -22,5 +25,17 @@
         <action
             android:id="@+id/action_add_Note_to_note_List"
             app:destination="@id/note_List" />
+    </fragment>
+    <fragment
+        android:id="@+id/note_Update"
+        android:name="com.example.android.mydiary.fragments.Note_Update"
+        android:label="Update Note"
+        tools:layout="@layout/fragment_note__update" >
+        <action
+            android:id="@+id/action_note_Update_to_note_List"
+            app:destination="@id/note_List" />
+        <argument
+            android:name="currentNote"
+            app:argType="com.example.android.mydiary.Notes" />
     </fragment>
 </navigation>

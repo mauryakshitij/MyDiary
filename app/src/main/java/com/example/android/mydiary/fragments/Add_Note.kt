@@ -34,8 +34,8 @@ class Add_Note : Fragment() {
         mNotesViewModel = ViewModelProvider(this).get(NotesViewModel::class.java)
 
         view.findViewById<ExtendedFloatingActionButton>(R.id.save_note_button).setOnClickListener {
-            val title = view.findViewById<TextInputEditText>(R.id.title_edit_text).toString()
-            val content = view.findViewById<TextInputEditText>(R.id.content_edit_text).toString()
+            val title = view.findViewById<TextInputEditText>(R.id.title_edit_text).text.toString()
+            val content = view.findViewById<TextInputEditText>(R.id.content_edit_text).text.toString()
             val date = Calendar.getInstance().time
             val formatter = SimpleDateFormat.getDateInstance() //or use getDateInstance()
             val formatteddate = formatter.format(date).toString()
